@@ -60,3 +60,10 @@ typings/
 # Lockfiles
 yarn.lock
 package-lock.json
+
+# dont commit wordpress source XML files
+*.XML
+*.xml
+
+# dont commit exported ndjson files
+*.ndjson
